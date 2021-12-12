@@ -608,15 +608,427 @@
           ],
           correct_answer_flg:false, selected:null,
         },
-
+        {
+          question:"消防用設備等の設置又は維持に関する命令について、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"消防長又は消防署長は、消防用設備等が技術基準に従って維持されていない場合、防火対象物の関係者で権原を有する者に対して、必要な措置をとることを命ずることができる",answer:true},
+            {choice:"消防長又は消防署長は、消防用設備等が技術基準に従って設置されていない場合、工事に当たった消防設備士に対して、工事の手直しを命ずることができる",answer:false},
+            {choice:"設置の命令に違反して消防用設備等を設置しなかった者は、罰金又は拘留に処される",answer:false},
+            {choice:"維持の命令に違反して消防用設備等の維持のため必要な措置をとらなかったものは、懲役又は罰金に処される",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防用設備等が技術上の基準に適合していない場合、必要な措置を行うよう命令を受けるものとして、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"防火対象物の管理者で権原を有するもの",answer:true},
+            {choice:"防火対象物の占有者",answer:false},
+            {choice:"防火対象物の消防用設備等を工事した消防設備士",answer:false},
+            {choice:"防火対象物の消防用設備等を点検した消防設備士",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防用設備等が技術上の基準に適合していない場合、必要な措置を行うよう命令を受けるものとして、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"命令は任意に設置した消防用設備等までは及ばない",answer:false},
+            {choice:"消防用設備等の設置義務がある防火対象物に消防用設備等の一部が設置されていない場合でも命令のい対象となる",answer:false},
+            {choice:"命令を発することができる者は、消防長又は消防署長である",answer:false},
+            {choice:"命令の相手方は、防火対象物の関係者であれば当該消防用設備等について権原を有しなくても良い",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"工事整備対象設備等着工届書による届出が必要となる消防用設備として、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"誘導灯",answer:false},
+            {choice:"消防機関へ通報する火災報知器",answer:true},
+            {choice:"非常警報設備",answer:false},
+            {choice:"漏電火災警報器",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士でなければ工事又は整備を行うことができない消防用設備等の組み合わせとして、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"屋内消火栓設備、不活性ガス消火設備、スプリンクラー設備、動力消防ポンプ設備",answer:false},
+            {choice:"泡消火設備、粉末消火設備、パッケージ型消火設備",answer:true},
+            {choice:"自動火災報知設備、漏電火災警報器、放送設備",answer:false},
+            {choice:"消火器、救助袋、すべり台、緩降機(かんこうき)",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士でなくても行うことができる消防用設備等の整備の範囲として、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"給水装置工事主任技術者であるAは、スプリンクラー設備の水源に水を補給するための給水管を交換した",answer:false},
+            {choice:"電気主任技術者であるＢは、自動火災報知設備の電源表示ランプを交換した",answer:false},
+            {choice:"電気工事士であるＣは、屋内消火栓の表示灯が消えていたので、表示灯配線の異常の有無について検査して、電球を取り替えた",answer:false},
+            {choice:"水道工事業者であるＤは、屋外消火栓の水漏れ補修を頼まれ、水漏れの原因となった屋外消火栓開閉弁を新品と交換した",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防法第17条第２項に規定されている付加条例について、最も適切なものは次のうちどれか",
+          choices:[
+            {choice:"市町村の付加条例によって、消防用設備等の設置及び維持に関する技術上の基準について、政令で定める基準を強化することができる",answer:true},
+            {choice:"市町村の付加条例によって、消防用設備等の設置及び維持に関する技術上の基準について、政令で定める基準を緩和することができる",answer:false},
+            {choice:"市町村の付加条例によって、消防法施行令別表第一の防火対象物以外の防火対象物に対して消防用設備等の設置を義務付けることができる",answer:false},
+            {choice:"市町村の付加条例によって、政令で定める消防用設備等の一部を設置しなくてもよいという特例基準を定めることができる",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士が行うことができる工事又は整備について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"甲種特類消防設備士免状の交付を受けている者は、消防用設備等のすべて及び特殊消防用設備等について、整備を行うことができる",answer:true},
+            {choice:"甲種第４類消防設備士免状の交付を受けている者は、危険物製造所等に設置する自動的に作動する火災報知設備の工事を行うことができる",answer:false},
+            {choice:"乙種第１類消防設備士免状の交付を受けている者は、屋外消火栓設備の開閉弁の整備を行うことができる",answer:false},
+            {choice:"乙種第５類消防設備士免状の交付を受けている者は、緩降機本体及びその取付け具の整備を行うことができる",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士が行うことができる工事又は整備について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"甲種第１類の消防設備士は、スプリンクラー設備の整備を行うことができる",answer:false},
+            {choice:"甲種第２類の消防設備士は、泡消火設備の工事を行うことができる",answer:false},
+            {choice:"甲種第４類の消防設備士は、漏電火災警報器の整備を行うことができる",answer:true},
+            {choice:"乙種第３類の消防設備士は、粉末消火設備の整備を行うことができる",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士が行う工事又は整備について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"甲種第５類の消防設備士免状の交付を受けている者は、級降機及び救助袋の工事を行うことができる",answer:false},
+            {choice:"乙種第４類の消防設備士免状の交付を受けている者は、ガス漏れ火災警報設備の整備を行うことができる",answer:false},
+            {choice:"乙種第２類の消防設備士免状の交付を受けている者は、泡消火設備の整備を行うことができる",answer:true},
+            {choice:"乙種第１類の消防設備士免状の交付を受けている者は、水噴霧消火設備の工事を行うことができる",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士が行う工事又は整備について、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"甲種第１類の消防設備士は、泡消火設備の整備を行うことができる",answer:false},
+            {choice:"乙種第５類の消防設備士は、金属製避難はしごの設置工事を行うことができる",answer:false},
+            {choice:"甲種第４類の消防設備士は、自動火災報知機設備の設置工事を行うことができる",answer:true},
+            {choice:"乙種第６類の消防設備士は、漏電火災警報器の整備を行うことができる",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士に関する記述として、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"消防設備等の移設には、乙種消防設備士の資格を必要とする場合がある",answer:true},
+            {choice:"消防用設備等の増設には、甲種消防設備士の資格を必要とする場合がある",answer:false},
+            {choice:"消防用設備等の不良個所が指定された場合の不良機器の調整、又は部品交換には、乙種消防設備士の資格を必要とする場合がある",answer:false},
+            {choice:"消防用設備等の新設には、甲種消防設備士の資格を必要とする場合がある",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状に関する記述について、消防法令上正しいものは次のうちどれか",
+          choices:[
+            {choice:"消防設備士免状の交付を受けた都道府県以外で業務に従事するときは、業務地を管轄する都道府県知事に免状の書換えを申請しなければならない",answer:false},
+            {choice:"消防設備士免状の記載事項に変更が生じた場合、当該免状を交付した都道府県知事又は移住地若しくは勤務地を管轄する都道府県知事に免状の書き換えを申請しなければならない",answer:true},
+            {choice:"消防設備士免状を亡失したときは、亡失した日から10日以内に免状の再交付を申請しなければならない",answer:false},
+            {choice:"消防設備士免状の返納を命ぜられた日から３年を経過しない者については、新たな試験に合格しても免状が交付されないことがある",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状に関して、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"消防設備士免状の記載事項に変更を生じたときは、免状を交付した都道府県知事又は移住地若しくは勤務地を管轄する都道府県知事に免状の書換えを申請しなければならない",answer:false},
+            {choice:"消防設備士免状をなくした時は、亡失に気づいた日から10日以内に免状を交付した都道府県知事に免状の再交付を申請しなければならない",answer:true},
+            {choice:"消防設備士免状を汚損又は破損した者は、免状を交付した都道府県知事に免状の再交付を申請することができる",answer:false},
+            {choice:"消防設備士免状の返納命令に違反した者は、罰金又は拘留に処せられることがある",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状の書き換えについて、消防法令上、正しいものはどれか",
+          choices:[
+            {choice:"免状に貼ってある写真が撮影した日から10年を超えた場合は、移住地又は勤務地を管轄する消防長又は消防署長に書換の申請をしなければならない",answer:false},
+            {choice:"移住地に変更が生じた場合は、移住地又は勤務地を管轄する都道府県知事に書換えの申請をしなければならない",answer:false},
+            {choice:"氏名に変更が生じた場合は、免状を交付した都道府県知事又は移住地若しくは勤務地を管轄する都道府県知事に書換の申請をしなければならない",answer:true},
+            {choice:"本籍地の属する都道府県に変更が生じた場合は、新たな本籍地を管轄する消防長又は消防署長に書換えの申請をしなければならない",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状を亡失した場合の再交付申請先として、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"移住地又は勤務地を管轄する都道府県知事",answer:false},
+            {choice:"移住地又は勤務地を管轄する消防長又は消防署長",answer:false},
+            {choice:"当該免状の交付又は書換をした都道府県知事",answer:true},
+            {choice:"当該免状の交付又は書換をした消防長又は消防署長",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状を亡失してその再交付を受けた者が、亡失した免状を発見した場合は、これを一定期間以内に免状の再交付をした都道府県知事に提出しなければならないとするが、その期間として、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"7日以内",answer:false},
+            {choice:"10日以内",answer:true},
+            {choice:"14日以内",answer:false},
+            {choice:"20日以内",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状に関する申請とその申請先について、消防法令上、誤っているものの組み合わせは次のうちどれか",
+          choices:[
+            {choice:"申請：書換え、申請先：移住地又は勤務地を管轄する都道府県知事",answer:false},
+            {choice:"申請：再交付、申請先：免状を交付した都道府県知事",answer:false},
+            {choice:"申請：書換え、申請先：免状を交付した都道府県知事",answer:false},
+            {choice:"申請：再交付、申請先：移住地又は勤務地を管轄する都道府県知事",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状の記載事項について、消防法令に定めれられていないものは、次のうちどれか",
+          choices:[
+            {choice:"免状の交付年月日及び交付番号",answer:false},
+            {choice:"氏名及び生年月日",answer:false},
+            {choice:"現住所",answer:true},
+            {choice:"過去１０年いないに執拗した写真",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"次の文中の（　）に当てはまる数値及び語句の組み合わせとして、消防法令上に定められているものは次のうちどれか「消防設備士免状を亡失してその再交付を受けた者は亡失した免状を発見した場合には、これを（ア）日以内に免状の再交付をした（イ）に提出しなければならない",
+          choices:[
+            {choice:"（ア） 10、（イ）都道府県知事",answer:true},
+            {choice:"（ア）10、（イ）消防長又は消防署長",answer:false},
+            {choice:"（ア）14、（イ）都道府県知事",answer:false},
+            {choice:"（ア）14、（イ）消防長又は消防署長",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村長その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"消防設備士免状の交付を受けた日から5年以内ごとに受講しなければならない",answer:true},
+            {choice:"工事整備対象設備等の工事又は整備に従事していない消防設備士もじゅこうしなければならない",answer:false},
+            {choice:"消防設備士免状の種類及び指定区分等に応じて行われる",answer:false},
+            {choice:"定められた期間内に受講しなければ、消防設備士免状の返納を命ぜられることがある",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習制度について、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"消防設備士は、その業務に従事することになった日以降における最初の４月１日から５年以内ごとに講習をうけなければならない",answer:false},
+            {choice:"消防設備士は、免状の交付を受けた日以降における最初の４月１日から５月１日から２年以内に講習を受け、その後、前回の講習を受けなければならない",answer:false},
+            {choice:"消防設備士は、その業務に従事することになった日以降における最初の４月１日から２年以内に講習を受け、その後、前回の講習を受けた日以降における最初の４月１日から５年いないごとに講習をうけなければならない",answer:false},
+            {choice:"消防設備士は、免状の交付を受けた日以降における最初の４月１日から２年以内に講習を受け、その後、前回の講習を受けた日以降における最初の４月１日から５年以内ごとに講習を受けなければならない",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"工事整備対象設備等の工事又は整備に関する講習の実施者として、消防法令上正しいものは次のうちどれか",
+          choices:[
+            {choice:"都道府県知事",answer:true},
+            {choice:"総務大臣",answer:false},
+            {choice:"消防長又は消防署長",answer:false},
+            {choice:"消防長長官",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村長その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習の受講時期について、消防法令で定められているものは、次のうちどれか",
+          choices:[
+            {choice:"免状の交付を受けた日から３年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日から５年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日から２年以内、その後、前回の講習を受けた日から５年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日以降における最初の４月１日から２年以内、その後、前回の講習を受けた日以降における最初の４月１日から５年以内ごと",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村長その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習の受講時期について、消防法令で定められているものは、次のうちどれか",
+          choices:[
+            {choice:"免状の交付を受けた日以降における最初の４月１日から１年以内、その後、前回の講習を受けた日以降における最初の４月１日から３年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日以降における最初の４月１日から２年以内、その後、前回の講習を受けた日以降における最初の４月１日から５年以内ごと",answer:true},
+            {choice:"免状の交付を受けた日から３年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日から５年以内ごと",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状の返納について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"返納を命ずるのは、消防長又は消防署長である",answer:true},
+            {choice:"返納を命ずることができるのは、消防設備士がh相貌法令の規定に違反している場合である",answer:false},
+            {choice:"免状の返納命令に従わない場合には、罰則の適用がある",answer:false},
+            {choice:"免状の返納命令により、消防設備士の資格を喪失する",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"工事整備対象設備等の工事又は整備に関する講習について次の記述のうち、文中の（　）に当てはまる語句の組み合わせとして、消防法令上正しいものは次のうちどれか。「消防設備士は、（ア）日以降における最初の４月１日から（イ）以内に講習をうけなければならない",
+          choices:[
+            {choice:"（ア）工事整備対象設備等の工事又は整備に従事することとなった　（イ）２年",answer:false},
+            {choice:"（ア）免状の交付を受けた　（イ）５年",answer:false},
+            {choice:"（ア）工事整備対象設備等の工事又は整備に従事することとなった　（イ）５年",answer:false},
+            {choice:"（ア）免状の交付を受けた　（イ）２年",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村長その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"消防設備士免状の交付を受けた日から5年以内ごとに受講しなければならない",answer:true},
+            {choice:"工事整備対象設備等の工事又は整備に従事していない消防設備士もじゅこうしなければならない",answer:false},
+            {choice:"消防設備士免状の種類及び指定区分等に応じて行われる",answer:false},
+            {choice:"定められた期間内に受講しなければ、消防設備士免状の返納を命ぜられることがある",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習制度について、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"消防設備士は、その業務に従事することになった日以降における最初の４月１日から５年以内ごとに講習をうけなければならない",answer:false},
+            {choice:"消防設備士は、免状の交付を受けた日以降における最初の４月１日から５月１日から２年以内に講習を受け、その後、前回の講習を受けなければならない",answer:false},
+            {choice:"消防設備士は、その業務に従事することになった日以降における最初の４月１日から２年以内に講習を受け、その後、前回の講習を受けた日以降における最初の４月１日から５年いないごとに講習をうけなければならない",answer:false},
+            {choice:"消防設備士は、免状の交付を受けた日以降における最初の４月１日から２年以内に講習を受け、その後、前回の講習を受けた日以降における最初の４月１日から５年以内ごとに講習を受けなければならない",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"工事整備対象設備等の工事又は整備に関する講習の実施者として、消防法令上正しいものは次のうちどれか",
+          choices:[
+            {choice:"都道府県知事",answer:true},
+            {choice:"総務大臣",answer:false},
+            {choice:"消防長又は消防署長",answer:false},
+            {choice:"消防丁長官",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村長その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習の受講時期について、消防法令で定められているものは、次のうちどれか",
+          choices:[
+            {choice:"免状の交付を受けた日から３年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日から５年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日から２年以内、その後、前回の講習を受けた日から５年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日以降における最初の４月１日から２年以内、その後、前回の講習を受けた日以降における最初の４月１日から５年以内ごと",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"都道府県知事（総務大臣が指定する市町村長その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習の受講時期について、消防法令で定められているものは、次のうちどれか",
+          choices:[
+            {choice:"免状の交付を受けた日以降における最初の４月１日から１年以内、その後、前回の講習を受けた日以降における最初の４月１日から３年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日以降における最初の４月１日から２年以内、その後、前回の講習を受けた日以降における最初の４月１日から５年以内ごと",answer:true},
+            {choice:"免状の交付を受けた日から３年以内ごと",answer:false},
+            {choice:"免状の交付を受けた日から５年以内ごと",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士免状の返納について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"返納を命ずるのは、消防長又は消防署長である",answer:true},
+            {choice:"返納を命ずることができるのは、消防設備士がh相貌法令の規定に違反している場合である",answer:false},
+            {choice:"免状の返納命令に従わない場合には、罰則の適用がある",answer:false},
+            {choice:"免状の返納命令により、消防設備士の資格を喪失する",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"工事整備対象設備等の工事又は整備に関する講習について次の記述のうち、文中の（　）に当てはまる語句の組み合わせとして、消防法令上正しいものは次のうちどれか。「消防設備士は、（ア）日以降における最初の４月１日から（イ）以内に講習をうけなければならない",
+          choices:[
+            {choice:"（ア）工事整備対象設備等の工事又は整備に従事することとなった　（イ）２年",answer:false},
+            {choice:"（ア）免状の交付を受けた　（イ）５年",answer:false},
+            {choice:"（ア）工事整備対象設備等の工事又は整備に従事することとなった　（イ）５年",answer:false},
+            {choice:"（ア）免状の交付を受けた　（イ）２年",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防設備士の義務について、消防法令上、誤っているものは次のうちどれか",
+          choices:[
+            {choice:"消防用設備等が設備等技術基準に違反して設置又は維持されている場合、消防設備士は消防長又は消防署長に届け出なければならない",answer:true},
+            {choice:"消防設備士は、その業務に従事する場合、消防設備士免状を携帯していなければならない",answer:false},
+            {choice:"消防設備士は、業務を誠実に行い工事対象整備対象設備当の質の向上に努めなければならない",answer:false},
+            {choice:"消防設備士は、都道府県知事（総務大臣が指定する市町村長その他の機関を含む）が行う工事整備対象設備等の工事又は整備に関する講習を受けなければならない",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"次の消防法令施行令別表第１に掲げる防火対象物のうち、消防法令上、防火管理対象者を定めなければならないものは次のうちどれか",
+          choices:[
+            {choice:"診療所で、収容人数が20人のもの",answer:false},
+            {choice:"美術館で、収容人数が30人のもの",answer:false},
+            {choice:"教会で、収容人数が40人のもの",answer:false},
+            {choice:"事務所で、収容人数が50人のもの",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"次の消防法令施行令別表第１に掲げる防火対象物のうち、消防法令上、防火管理対象者を定めなくてもよいものは次のうちどれか",
+          choices:[
+            {choice:"老人短期入所施設で、収容人数が15人のもの",answer:false},
+            {choice:"旅館で、収容人員が30人のもの",answer:false},
+            {choice:"カラオケボックスで、収容人員が30人のもの",answer:false},
+            {choice:"共同住宅で、収容人数が45人のもの",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"防火管理に関する次の記述の文中の（　）に当てはまる語句の組み合わせとして、消防法令上、正しいものは次のうちどれか「（ア）は消防の用に供する設備、消防用水若しくは消火活動上必要な施設の（イ）及び整備又は火器の使用若しくは取り扱いに関する監督を行うときは、火元責任者その他の防火管理の業務に従事する者に対し、必要な指示を与えなければならない」",
+          choices:[
+            {choice:"（ア）防火管理者　（イ）工事",answer:false},
+            {choice:"（ア）管理について権原を有する者　（イ）工事",answer:false},
+            {choice:"（ア）管理について権限を有する者　（イ）点検",answer:false},
+            {choice:"（ア）防火管理者　（イ）点検",answer:true}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"次の管理について権原が分かれている防火対象物のうち、統括防火管理者を定めなければならないものとして、消防法令上、誤っているものはどれか。ただし、防火対象物は、高層建築物（高さ３１ｍを超える建築物）ではないものとする",
+          choices:[
+            {choice:"地階を除く階数が３の特別養護老人ホームで、収容人員が６０人のもの",answer:false},
+            {choice:"地階を除く階数が５の事務所で、収容人員が６０人のもの",answer:true},
+            {choice:"２階をカラオケボックスとして使用する地階を除く階数が３の複合用途防火対象物で、収容人数が５０人のもの",answer:false},
+            {choice:"地階を除く階数が５の病院で、収容う人員が７０人のもの",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"次のアからウまでの管理について権原が分かれている防火対象物のうち、統括防火管理者をさだめなければならないものとして、消防法令上、正しいものの組み合わせは次のうちどれか。ただし、防火対象物は、高層建築物（高さ３１ｍを超える建築物）ではないものとする　ア：地階を除く階数が５の作業場で、収容人員が８０人のもの　イ：地階を除く階数が４の病院で、収容人数が４０人のもの　ウ：地階を除く階数が３の特別養護老人ホームで、収容人員が２０人のもの",
+          choices:[
+            {choice:"ア、イのみ",answer:false},
+            {choice:"ア、ウのみ",answer:false},
+            {choice:"イ、ウのみ",answer:true},
+            {choice:"ア、イ、ウすべて",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防の用に供する機械器具等の検定に係る表示に関する次の記述のうち、文中の（　）に当てはまる語句として、消防法令上、正しいものは次のうちどれか「検定対象機械器具等は、型式承認を受けたものであり、かつ、（　）の表示が付されているものでなければ、販売の目的で陳列してはならない」",
+          choices:[
+            {choice:"技術上の規格に適合するものである旨",answer:false},
+            {choice:"設備等技術基準に適合するものである旨",answer:false},
+            {choice:"型式適合検定に合格したものである旨",answer:true},
+            {choice:"性能評価を受けたものである旨",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
+        {
+          question:"消防の用に供する機械器具等の検定について、消防法令上、正しいものは次のうちどれか",
+          choices:[
+            {choice:"型式承認とは、検定対象機械器具等の型式に係る形状等が総務省令で定める検定対象機械器具等に係る技術上の規格に適合している旨の承認をいう",answer:true},
+            {choice:"検定対象機械器具等は、型式承認を受けたものである旨の表示が付されているものであれば、販売の目的で陳列することができる",answer:false},
+            {choice:"型式適合検定とは、型式承認を受けていない検定対象機械器具等の形状等が型式に係る形状等に適合しているかどうかについて総務省令で定める方法により行う検定をいう",answer:false},
+            {choice:"検定対象機械器具等のうち消防の用に供する機械器具又は設備は、型式承認を受けたものである旨の表示が付されているものであれば、その設置、変更又は修理の請負にかかるものである旨の表示が付されているものであれば、その設置、変更又は修理の請負に係る工事に使用することができる",answer:false}
+          ],
+          correct_answer_flg:false, selected:null,
+        },
 /*
-
-
-"〇
-×
-×
-×"
-
 
         {
           question:"",
